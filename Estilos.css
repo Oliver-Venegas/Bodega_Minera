@@ -7,10 +7,9 @@
     margin-top: 5%;
     margin-left: 38%;
 }
-.begin{
+#begin{
     font-size: 39px;
-    width: 290px;
-    height: 50px;
+    padding: 5px 68px ;
     margin-top: 25px;
     margin-left: 38%;
     border: 1px solid gray;
@@ -19,4 +18,45 @@
 #colores{
     height: 263px;
     background-image: linear-gradient(white,rgb(95, 135, 237)) ;
+}
+#select_user{
+    background-color: rgb(221, 221, 221);
+}
+#marco_usuarios{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    height: 70%;
+    border: 2px solid black;
+}
+#titul_selec{
+    font-size: 45px;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+#but_Admin{
+    font-size: 39px;
+    padding: 10px 86px ;
+    margin-top: 54px;
+    margin-left: 24%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+}
+#but_Jefe{
+    font-size: 39px;
+    padding: 10px 68px ;
+    margin-top: 54px;
+    margin-left: 24%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+}
+#but_Miner{
+    font-size: 39px;
+    padding: 10px 146px ;
+    margin-top: 54px;
+    margin-left: 24%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
 }
