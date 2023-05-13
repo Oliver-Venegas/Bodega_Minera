@@ -1,0 +1,22 @@
+#titulo{
+    font-size: 45px;
+    margin-left: 38%;
+}
+#imagen{
+    width: 290px;
+    margin-top: 5%;
+    margin-left: 38%;
+}
+.begin{
+    font-size: 39px;
+    width: 290px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 38%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+}
+#colores{
+    height: 263px;
+    background-image: linear-gradient(white,rgb(95, 135, 237)) ;
+}
