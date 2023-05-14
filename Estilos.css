@@ -1,3 +1,5 @@
+
+/* DISEÑO DEL COMIENZO */
 #titulo{
     font-size: 45px;
     margin-left: 38%;
@@ -19,6 +21,8 @@
     height: 263px;
     background-image: linear-gradient(white,rgb(95, 135, 237)) ;
 }
+
+/* DISEÑO DE LA SELECCION DE USUARIOS */
 #select_user{
     background-color: rgb(221, 221, 221);
 }
@@ -59,4 +63,187 @@
     margin-left: 24%;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
+}
+
+/* DISEÑO DEL LOG IN DEL ADMINISTRADOR */
+#titul_Ad{
+    font-size: 45px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#marco_Ad{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 32%;
+    border: 2px solid rgb(73, 73, 73);
+    ;
+}
+#Ad_user{
+    background-color: rgb(221, 221, 221);
+}
+#user_AdCanc{
+    font-size: 18px;
+    padding: 5px 80px ;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 19%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#user_AdConf{
+    font-size: 18px;
+    padding: 5px 80px ;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+}
+#Aduser_txt{
+    font-size: 17px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 32%;
+}
+#Adpass_txt{
+    font-size: 17px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 32%;
+    margin-bottom: 12px;
+}
+#txt_userAd{
+    margin-top: 35px;
+    margin-left: 35px;
+    position: fixed;
+}
+#txt_passAd{
+    margin-top: 35px;
+    margin-left: 98px;
+    position: fixed;
+}
+
+/* DISEÑO DEL LOG IN DEL JEFE DE BODEGA */
+#titul_Je{
+    font-size: 45px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#marco_Je{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 32%;
+    border: 2px solid rgb(73, 73, 73);
+    ;
+}
+#Je_user{
+    background-color: rgb(221, 221, 221);
+}
+#user_JeCanc{
+    font-size: 18px;
+    padding: 5px 80px ;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 19%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#user_JeConf{
+    font-size: 18px;
+    padding: 5px 80px ;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+}
+#Jeuser_txt{
+    font-size: 17px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 32%;
+}
+#Jepass_txt{
+    font-size: 17px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 32%;
+    margin-bottom: 12px;
+}
+#txt_userJe{
+    margin-top: 35px;
+    margin-left: 35px;
+    position: fixed;
+}
+#txt_passJe{
+    margin-top: 35px;
+    margin-left: 98px;
+    position: fixed;
+}
+
+/* DISEÑO DEL LOG IN DEL MINERO */
+#titul_Mi{
+    font-size: 45px;
+    margin-left: 29%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#marco_Mi{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 32%;
+    border: 2px solid rgb(73, 73, 73);
+    ;
+}
+#Mi_user{
+    background-color: rgb(221, 221, 221);
+}
+#user_MiCanc{
+    font-size: 18px;
+    padding: 5px 80px ;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 19%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#user_MiConf{
+    font-size: 18px;
+    padding: 5px 80px ;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+}
+#Miuser_txt{
+    font-size: 17px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 32%;
+}
+#Mipass_txt{
+    font-size: 17px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 32%;
+    margin-bottom: 12px;
+}
+#txt_userMi{
+    margin-top: 35px;
+    margin-left: 35px;
+    position: fixed;
+}
+#txt_passMi{
+    margin-top: 35px;
+    margin-left: 98px;
+    position: fixed;
 }
