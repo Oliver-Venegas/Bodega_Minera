@@ -18,7 +18,7 @@
     background-image: linear-gradient(white,gainsboro);
 }
 #colores{
-    height: 263px;
+   height: 279px;
     background-image: linear-gradient(white,rgb(95, 135, 237)) ;
 }
 
@@ -246,4 +246,265 @@
     margin-top: 35px;
     margin-left: 98px;
     position: fixed;
+}
+
+/* MENU ADMINISTRADOR */
+#superior_line{
+    display: flex;
+    height: 60px;
+    background-color: rgba(74, 112, 209, 1);
+    align-items: center;
+}
+#fle_menAd{
+    display: flex;
+}
+.arrow_image{
+    height: 35px;
+    padding: 20px 10px;
+}
+.line_ADtitule{
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.Sol_ON{
+    height: 35px;
+    right: 0;
+    position: absolute;
+    padding: 20px 10px;
+}
+#bt_move_liAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 100px ;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_ediAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 122px;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_leAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 112px ;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_lsAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 115px ;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_lpAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 88px ;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_cbAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 125px ;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_soliAd{
+    display: flex;
+    font-size: 28px;
+    padding: 8px 140px ;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 35%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#full_backup{
+position: fixed;
+    font-size: 30px;
+    padding: 9px 40px ;
+    margin-left: 3%;
+    margin-right: 60%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#bt_move_cuAd{
+    position: fixed;
+    font-size: 30px;
+    padding: 9px 40px ;
+    margin-left: 78%;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+
+/* LISTA DE BODEGA DEL ADMINISTRADOR */
+.test_lista{
+    margin: 35px;
+    width: 94%;
+    height: 65%;
+}
+#txt_listadoAd{
+    position: fixed;
+    margin-left: 150px;
+}
+.busca_listadoAd{
+    font-size: 17px;
+    width: 35%;
+    margin-top: 17px;
+    margin-left: 25%;
+}
+.buscar_Adlistado{
+    margin-top: 17px;
+    margin-left: 5px;
+    padding: 4px 25px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+.Adlista_Exc{
+    margin-top: 17px;
+    margin-left: 17%;
+    padding: 4px 25px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+
+/* EDITAR LISTADOS DEL ADMINISTRADOR*/
+.test_edicion{
+    position: fixed;
+    margin: 35px;
+    width: 64%;
+    height: 55%;
+}
+.Newpro_Ad{
+    position: fixed;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 8%;
+    padding: 4px 47px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+.Extra_Ad{
+    position: fixed;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 38%;
+    padding: 4px 78px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+.Exist_Ad{
+    position: fixed;
+    font-size: 20px;
+    margin-top: 35%;
+    margin-left: 8%;
+    padding: 4px 25px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+.Delet_Ad{
+    position: fixed;
+    font-size: 20px;
+    margin-top: 35%;
+    margin-left: 38%;
+    padding: 4px 75px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
+#titul_edit_testAd{
+    font-size: 25px;
+    margin-left: 70%;
+}
+#txt_name_newproAd{
+    position: fixed;
+    margin-left: 69%;
+}
+#txt_tipe_newproAd{
+    position: fixed;
+    margin-left: 71%;
+}
+#txt_cant_newproAd{
+    position: fixed;
+    margin-left: 68%;
+}
+
+#Adnewpro_name_txt{
+    margin-top: 20px;
+    margin-left: 75%;
+    padding: 2px 55px;
+}
+#Adnewpro_tipe_txt{
+    margin-top: 20px;
+    margin-left: 75%;
+    padding: 2px 55px;
+}
+#Adnewpro_cant_txt{
+    margin-top: 20px;
+    margin-left: 75%;
+    padding: 2px;
+    width: 60px;
+}
+#conf_newproAd{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 70%;
+    padding: 7px 140px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
 }
