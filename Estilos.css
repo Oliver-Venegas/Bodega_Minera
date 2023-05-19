@@ -202,7 +202,7 @@
 
 /* MENU ADMINISTRADOR */
 #superior_line{
-    display: flexbox;
+    
     height: 60px;
     background-color: rgba(74, 112, 209, 1);
     align-items: center;
@@ -336,51 +336,42 @@
 }
 
 /* EDITAR LISTADOS DEL ADMINISTRADOR*/
-.test_edicion{
-    position: fixed;
+#test_edicion{
     margin: 35px;
-    width: 64%;
-    height: 55%;
+    width: 93%;
+    height: 90%;
 }
-.Newpro_Ad{
-    position: fixed;
+#Newpro_Ad{
     font-size: 20px;
-    margin-top: 30%;
-    margin-left: 8%;
-    padding: 4px 47px;
+
+    padding: 6px 47px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Extra_Ad{
-    position: fixed;
+#Extra_Ad{
     font-size: 20px;
-    margin-top: 30%;
-    margin-left: 38%;
-    padding: 4px 78px;
+
+    padding: 6px 78px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Exist_Ad{
-    position: fixed;
+#Exist_Ad{
     font-size: 20px;
-    margin-top: 35%;
-    margin-left: 8%;
-    padding: 4px 25px;
+
+    padding: 6px 30px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Delet_Ad{
-    position: fixed;
+#Delet_Ad{
     font-size: 20px;
-    margin-top: 35%;
-    margin-left: 38%;
-    padding: 4px 75px;
+
+    padding: 6px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -388,43 +379,37 @@
 }
 #titul_edit_testAd{
     font-size: 25px;
-    margin-left: 70%;
+    margin-top: 25px;
 }
 #txt_name_newproAd{
-    position: fixed;
-    margin-left: 69%;
+    font-weight: bold;
+ 
 }
 #txt_tipe_newproAd{
-    position: fixed;
-    margin-left: 71%;
+    font-weight: bold;
+  
 }
 #txt_cant_newproAd{
-    position: fixed;
-    margin-left: 68%;
+    font-weight: bold;
+
 }
 #Adnewpro_name_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Adnewpro_tipe_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Adnewpro_cant_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #conf_newproAd{
     font-size: 20px;
-    margin-top: 35px;
-    margin-left: 70%;
-    padding: 7px 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -433,27 +418,20 @@
 
 /* LISTA DE ENTRADA ADMINISTRADOR */
 #txt_entraAd{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_entraAd{
+#busca_entraAd{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
 }
-.buscar_Adentra{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Adentra{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Adentra_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Adentra_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -463,27 +441,20 @@
 
 /* LISTA DE SALIDA ADMINISTRADOR */
 #txt_saliAd{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_saliAd{
+#busca_saliAd{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
 }
-.buscar_Adsali{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Adsali{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Adsali_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Adsali_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -492,28 +463,67 @@
 }
 
 /* LISTA DE PROVEEDORES ADMINISTRADOR */
+#titul_prove_testAd{
+    font-size: 25px;
+    margin-top: 25px;
+}
+#txt_name_proveAd{
+    font-weight: bold;
+ 
+}
+#txt_tele_proveAd{
+    font-weight: bold;
+  
+}
+#txt_run_proveAd{
+    font-weight: bold;
+
+}
+#txt_date_proveAd{
+    font-weight: bold;
+
+}
+#Adprove_name_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Adprove_tele_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Adprove_run_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Adprove_date_txt{
+    padding: 2px;
+    width: 370px;
+}
+#conf_proveAd{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
 #txt_proveAd{
-    position: fixed;
     margin-left: 152px;
 }
-.busca_proveAd{
+#busca_proveAd{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 26%;
 }
-.buscar_Adprove{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Adprove{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Adprove_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Adprove_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -524,31 +534,12 @@
 /* CREAR BODEGA ADMINISTRADOR */
 #AdBodtipe_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 105px;
-    margin-left: 34%;
 }
 #AdBodname_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 35px;
-    margin-left: 34%;
-    margin-bottom: 12px;
-}
-#txt_tipeBodAd{
-    margin-top: 105px;
-    margin-left: 315px;
-    position: fixed;
-}
-#txt_nameBodAd{
-    margin-top: 40px;
-    margin-left: 268px;
-    position: fixed;
 }
 #canc_AdBod{
     font-size: 20px;
-    margin-top: 19px;
-    margin-left: 20%;
     padding: 5px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -557,8 +548,6 @@
 }
 #conf_AdBod{
     font-size: 20px;
-    margin-top: 19px;
-    margin-left: 13%;
     padding: 5px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -569,54 +558,18 @@
 /* CREAR USUARIO ADMINISTRADOR */
 #AdUsertipe_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 105px;
-    margin-left: 34%;
 }
 #AdUsername_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 35px;
-    margin-left: 34%;
-    margin-bottom: 12px;
-}
-#txt_tipeUserAd{
-    margin-top: 105px;
-    margin-left: 315px;
-    position: fixed;
-}
-#txt_nameUserAd{
-    margin-top: 40px;
-    margin-left: 288px;
-    position: fixed;
 }
 #AdUserpass_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 35px;
-    margin-left: 34%;
 }
 #AdUseragain_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 35px;
-    margin-left: 34%;
-    margin-bottom: 12px;
-}
-#txt_passUserAd{
-    margin-top: 35px;
-    margin-left: 350px;
-    position: fixed;
-}
-#txt_againUserAd{
-    margin-top: 40px;
-    margin-left: 190px;
-    position: fixed;
 }
 #canc_AdUser{
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20%;
     padding: 5px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -625,8 +578,6 @@
 }
 #conf_AdUser{
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: 13%;
     padding: 5px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -636,84 +587,62 @@
 
 /* MENU JEFE DE BODEGA */
 #bt_move_liJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 100px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 108px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_ediJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 122px;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 138px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_leJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 112px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 122px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_lsJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 115px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 132px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_lpJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 88px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 90px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_cbJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 125px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 134px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_soliJe{
-    display: flex;
     font-size: 28px;
-    padding: 8px 140px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 150px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -722,27 +651,21 @@
 
 /* LISTADO DE BODEGA JEFE DE BODEGA */
 #txt_listadoJe{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_listadoJe{
+#busca_listadoJe{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
+
 }
-.buscar_Jelistado{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Jelistado{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Jelista_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Jelista_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -751,45 +674,37 @@
 }
 
 /* EDITAR BODEGA JEFE DE BODEGA */
-.Newpro_Je{
-    position: fixed;
+#Newpro_Je{
     font-size: 20px;
-    margin-top: 30%;
-    margin-left: 8%;
-    padding: 4px 47px;
+
+    padding: 6px 47px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Extra_Je{
-    position: fixed;
+#Extra_Je{
     font-size: 20px;
-    margin-top: 30%;
-    margin-left: 38%;
-    padding: 4px 78px;
+
+    padding: 6px 78px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Exist_Je{
-    position: fixed;
+#Exist_Je{
     font-size: 20px;
-    margin-top: 35%;
-    margin-left: 8%;
-    padding: 4px 25px;
+
+    padding: 6px 30px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Delet_Je{
-    position: fixed;
+#Delet_Je{
     font-size: 20px;
-    margin-top: 35%;
-    margin-left: 38%;
-    padding: 4px 75px;
+
+    padding: 6px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -797,43 +712,37 @@
 }
 #titul_edit_testJe{
     font-size: 25px;
-    margin-left: 70%;
+    margin-top: 25px;
 }
 #txt_name_newproJe{
-    position: fixed;
-    margin-left: 69%;
+    font-weight: bold;
+ 
 }
 #txt_tipe_newproJe{
-    position: fixed;
-    margin-left: 71%;
+    font-weight: bold;
+  
 }
 #txt_cant_newproJe{
-    position: fixed;
-    margin-left: 68%;
+    font-weight: bold;
+
 }
 #Jenewpro_name_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Jenewpro_tipe_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Jenewpro_cant_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #conf_newproJe{
     font-size: 20px;
-    margin-top: 35px;
-    margin-left: 70%;
-    padding: 7px 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -842,27 +751,20 @@
 
 /* LISTA DE ENTRADA JEFE DE BODEGA */
 #txt_entraJe{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_entraJe{
+#busca_entraJe{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
 }
-.buscar_Jeentra{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Jeentra{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Jeentra_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Jeentra_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -872,27 +774,20 @@
 
 /* LISTA DE SALIDA JEFE DE BODEGA */
 #txt_saliJe{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_saliJe{
+#busca_saliJe{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
 }
-.buscar_Jesali{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Jesali{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Jesali_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Jesali_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -900,29 +795,68 @@
     color: black;
 }
 
-/* LISTA DE PROVEEDORES */
+/* LISTA DE PROVEEDORES JEFE DE BODEGA */
+#titul_prove_testJe{
+    font-size: 25px;
+    margin-top: 25px;
+}
+#txt_name_proveJe{
+    font-weight: bold;
+ 
+}
+#txt_tele_proveJe{
+    font-weight: bold;
+  
+}
+#txt_run_proveJe{
+    font-weight: bold;
+
+}
+#txt_date_proveJe{
+    font-weight: bold;
+
+}
+#Jeprove_name_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Jeprove_tele_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Jeprove_run_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Jeprove_date_txt{
+    padding: 2px;
+    width: 370px;
+}
+#conf_proveJe{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
+    border: 1px solid gray;
+    background-image: linear-gradient(white,gainsboro);
+    text-decoration: none;
+    color: black;
+}
 #txt_proveJe{
-    position: fixed;
     margin-left: 152px;
 }
-.busca_proveJe{
+#busca_proveJe{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 26%;
 }
-.buscar_Jeprove{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Jeprove{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Jeprove_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Jeprove_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -933,31 +867,12 @@
 /* CREAR BODEGA JEFE DE BODEGA */
 #JeBodtipe_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 105px;
-    margin-left: 34%;
 }
 #JeBodname_txt{
     font-size: 17px;
-    width: 33%;
-    margin-top: 35px;
-    margin-left: 34%;
-    margin-bottom: 12px;
-}
-#txt_tipeBodJe{
-    margin-top: 105px;
-    margin-left: 315px;
-    position: fixed;
-}
-#txt_nameBodJe{
-    margin-top: 40px;
-    margin-left: 268px;
-    position: fixed;
 }
 #canc_JeBod{
     font-size: 20px;
-    margin-top: 19px;
-    margin-left: 20%;
     padding: 5px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -966,8 +881,6 @@
 }
 #conf_JeBod{
     font-size: 20px;
-    margin-top: 19px;
-    margin-left: 13%;
     padding: 5px 75px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -976,42 +889,27 @@
 }
 
 /* MENU MINERO */
-.line_Mititule{
-    color: rgb(255, 255, 255);
-    margin-left: 30%;
-    margin-right: 30%;
-}
 #bt_move_liMi{
-    display: flex;
     font-size: 28px;
-    padding: 10px 100px ;
-    margin-top: 100px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 11px 152px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_entrMi{
-    display: flex;
     font-size: 28px;
-    padding: 10px 90px;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 11px 138px ;
+    margin-top: 42px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_retMi{
-    display: flex;
     font-size: 28px;
-    padding: 10px 95px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 11px 148px ;
+    margin-top: 42px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -1020,27 +918,21 @@
 
 /* LISTADO DE BODEGA MINERO */
 #txt_listadoMi{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_listadoMi{
+#busca_listadoMi{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
+
 }
-.buscar_Milistado{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Milistado{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Milista_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Milista_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
@@ -1050,24 +942,17 @@
 
 /* ENTREGA DE PRODUCTO MINERO */
 #bt_move_liexisMi{
-    display: flex;
     font-size: 28px;
-    padding: 10px 100px ;
-    margin-top: 100px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 11px 152px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_newprMi{
-    display: flex;
     font-size: 28px;
-    padding: 10px 90px;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 11px 166px ;
+    margin-top: 42px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -1075,46 +960,35 @@
 }
 
 /* ENTREGA DE PRODUCTO EXISTENTE MINERO */
-#titul_edit_testMi{
-    font-size: 25px;
-    margin-top: 45px;
-    margin-left: 70%;
-}
 #txt_name_exisproMi{
-    position: fixed;
-    margin-left: 69%;
-}
-#txt_tipe_exisproMi{
-    position: fixed;
-    margin-left: 70%;
+    font-weight: bold;
+ 
 }
 #txt_cant_exisproMi{
-    position: fixed;
-    margin-left: 68%;
+    font-weight: bold;
+  
+}
+#txt_date_exisproMi{
+    font-weight: bold;
+
 }
 #Miexispro_name_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
-}
-#Miexispro_tipe_txt{
-    margin-top: 20px;
-    margin-left: 75%;
-    padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Miexispro_cant_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
+}
+#Miexispro_date_txt{
+    padding: 2px;
+    width: 370px;
 }
 #conf_exisproMi{
     font-size: 20px;
-    margin-top: 35px;
-    margin-left: 70%;
-    padding: 7px 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -1123,50 +997,42 @@
 
 /* ENTREGA DE NUEVO PRODUCTO MINERO */
 #txt_name_newproMi{
-    position: fixed;
-    margin-left: 69%;
-}
-#txt_tipe_newproMi{
-    position: fixed;
-    margin-left: 71%;
-}
-#txt_date_newproMi{
-    position: fixed;
-    margin-left: 70%;
+    font-weight: bold;
+ 
 }
 #txt_cant_newproMi{
-    position: fixed;
-    margin-left: 68%;
+    font-weight: bold;
+  
+}
+#txt_tipe_newproMi{
+    font-weight: bold;
+
+}
+#txt_date_newproMi{
+    font-weight: bold;
+
 }
 #Minewpro_name_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
-}
-#Minewpro_tipe_txt{
-    margin-top: 20px;
-    margin-left: 75%;
-    padding: 2px;
-    width: 290px;
-}
-#Minewpro_date_txt{
-    margin-top: 20px;
-    margin-left: 75%;
-    padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Minewpro_cant_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
+}
+#Minewpro_tipe_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Minewpro_date_txt{
+    padding: 2px;
+    width: 370px;
 }
 #conf_newproMi{
     font-size: 20px;
-    margin-top: 35px;
-    margin-left: 70%;
-    padding: 7px 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -1175,50 +1041,42 @@
 
 /* RETIRAR PRODUCTO MINERO */
 #txt_name_retproMi{
-    position: fixed;
-    margin-left: 69%;
-}
-#txt_tipe_retproMi{
-    position: fixed;
-    margin-left: 69%;
-}
-#txt_date_retproMi{
-    position: fixed;
-    margin-left: 70%;
+    font-weight: bold;
+ 
 }
 #txt_cant_retproMi{
-    position: fixed;
-    margin-left: 68%;
+    font-weight: bold;
+  
+}
+#txt_tipe_retproMi{
+    font-weight: bold;
+
+}
+#txt_date_retproMi{
+    font-weight: bold;
+
 }
 #Miretpro_name_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
-}
-#Miretpro_tipe_txt{
-    margin-top: 20px;
-    margin-left: 75%;
-    padding: 2px;
-    width: 290px;
-}
-#Miretpro_date_txt{
-    margin-top: 20px;
-    margin-left: 75%;
-    padding: 2px;
-    width: 290px;
+    width: 370px;
 }
 #Miretpro_cant_txt{
-    margin-top: 20px;
-    margin-left: 75%;
     padding: 2px;
-    width: 290px;
+    width: 370px;
+}
+#Miretpro_tipe_txt{
+    padding: 2px;
+    width: 370px;
+}
+#Miretpro_date_txt{
+    padding: 2px;
+    width: 370px;
 }
 #conf_retproMi{
     font-size: 20px;
-    margin-top: 35px;
-    margin-left: 70%;
-    padding: 7px 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 120px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;

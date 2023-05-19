@@ -3,26 +3,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Lista de Proveedores</title>
     <link rel="stylesheet" href="../Estilos.css">
 </head>
 <body style="margin: 0px;">
     <header id="superior_line">
-       <a id="fle_menAd" href="Menu_Ad.html"> <img class="arrow_image" src="../imagenes/Vector.png" alt="flecha"> </a>
-        <h1 class="line_ADtitule" >Lista de Proveedores</h1>
-        <img class="Sol_ON" src="../imagenes/solicitud_OFF.png" alt="No solicitud">
+        <a id="fle_menAd" href="Menu_Ad.html"> <img class="rounded float-start" id="arrow_image" src="../imagenes/Vector.png" alt="flecha"> </a>
+        <img class="rounded float-end" id="Sol_ON" src="../imagenes/solicitud_OFF.png" alt="No solicitud">
+        <div class="container">   
+        <h1 id="line_ADtitule" class="text-center">Lista de Proveedores</h1>
+        </div>
     </header>
 
-    <button class="test_lista"></button>
+    <br>
 
-    <div>
-        <h3 id="txt_proveAd">Nombre del Proveedor:</h3>
-        <input class="busca_proveAd" type="text">
-
-        <button class="buscar_Adprove" type="submit">Buscar</button>
-        <button class="Adprove_Exc" type="submit">Extraer en Excel</button>
+    <div class="row">
+        <div class="col-8">
+        <button id="test_edicion"></button> 
     </div>
     
+     <div class="col-4">
+    <div class="container" >
+        <h3 id="titul_prove_testAd" class="text-center">INGRESAR EL PROVEEDOR</h3>
+        <form class="row" style="margin-top: 30px;">
     
+            <div class="row">             
+              <div class="col-auto">
+                <div >
+                    <input type="text" id="txt_name_proveAd"  readonly class="form-control-plaintext" value="Nombre">
+                    <div class="col-3">
+                        <input type="text" id="Adprove_name_txt" class="form-control">
+                      </div>
+                </div>
+              </div>
+            </div>   
+    
+            <div class="row">
+              <div class="col-auto">
+                <div><input type="text" id="txt_tele_proveAd" readonly class="form-control-plaintext"  value="Telefono">
+                 <input type="text" id="Adprove_tele_txt" class="form-control" >
+                </div>      
+              </div>
+            </div>   
+              
+            <div class="row">
+              <div class="col-auto">
+                <div><input type="text" id="txt_run_proveAd" readonly class="form-control-plaintext" value="RUT">
+                <input type="text" id="Adprove_run_txt" class="form-control" >
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-auto">
+                  <div><input type="text" id="txt_date_proveAd" readonly class="form-control-plaintext" value="Fecha de Ingreso">
+                  <input type="text" id="Adprove_date_txt" class="form-control" >
+                  </div>
+                </div>
+              </div>
+    
+          </form>
+    
+          <div class="row">
+            <div class="col-3">
+                <button id="conf_proveAd" class="btn btn-primary btn-lg " type="submit">Confirmar</button>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+    </div>  
+
+    <form class="row g-4" style="margin-top: 10px;">
+        <div class="col-auto ">
+          
+          <input type="text" readonly class="form-control-plaintext" id="txt_proveAd" value="Nombre del Proveedor:">
+        </div>
+        <div class="col-auto">
+          <input type="text" class="form-control" id="busca_proveAd" placeholder="">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3" id="buscar_Adprove">Buscar</button>
+
+        </div>
+        <div class="col-auto">
+            <button id="Adprove_Exc" class="btn btn-primary mb-3" type="submit">Extraer en Excel</button>
+        </div>
+      </form>  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
