@@ -2,24 +2,28 @@
 /* DISEÑO DEL COMIENZO */
 #titulo{
     font-size: 45px;
-    margin-left: 38%;
+    margin-top: 2%;
 }
 #imagen{
     width: 290px;
-    margin-top: 5%;
-    margin-left: 38%;
+
 }
 #begin{
     font-size: 39px;
+    color: black;
     padding: 5px 68px ;
     margin-top: 25px;
-    margin-left: 38%;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
 }
-#colores{
-   height: 279px;
-    background-image: linear-gradient(white,rgb(95, 135, 237)) ;
+#color{
+    background-image: linear-gradient(
+    to bottom,
+    white 0,
+    rgb(95, 135, 237) 50%,
+    rgb(95, 135, 237) 100%);
+
+    height: 100%;
 }
 
 /* DISEÑO DE LA SELECCION DE USUARIOS */
@@ -32,35 +36,33 @@
     margin-right: 20%;
     margin-top: -1%;
     margin-bottom: 5%;
-    height: 70%;
     border: 2px solid black;
 }
 #titul_selec{
     font-size: 45px;
-    margin-left: 35%;
-    margin-top: 3%;
 }
 #but_Admin{
     font-size: 39px;
     padding: 10px 86px ;
-    margin-top: 54px;
-    margin-left: 24%;
+    margin-top: 44px;
+    color: black;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
 }
 #but_Jefe{
     font-size: 39px;
     padding: 10px 68px ;
-    margin-top: 54px;
-    margin-left: 24%;
+    margin-top: 44px;
+    color: black;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
 }
 #but_Miner{
     font-size: 39px;
     padding: 10px 146px ;
-    margin-top: 54px;
-    margin-left: 24%;
+    margin-top: 44px;
+    margin-bottom: 20px;
+    color: black;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
 }
@@ -68,17 +70,13 @@
 /* DISEÑO DEL LOG IN DEL ADMINISTRADOR */
 #titul_Ad{
     font-size: 45px;
-    margin-left: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 #marco_Ad{
     background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    height: 32%;
+    margin-bottom: 5%;  
     border: 2px solid rgb(73, 73, 73);
     ;
 }
@@ -88,9 +86,6 @@
 #user_AdCanc{
     font-size: 18px;
     padding: 5px 80px ;
-    margin-top: 15px;
-    margin-left: 5%;
-    margin-right: 19%;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -101,47 +96,34 @@
     padding: 5px 80px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
+    color: black;
 }
 #Aduser_txt{
-    font-size: 17px;
-    width: 63%;
-    margin-top: 35px;
-    margin-left: 32%;
+    margin-right: 10%;
 }
 #Adpass_txt{
-    font-size: 17px;
-    width: 63%;
-    margin-top: 35px;
-    margin-left: 32%;
-    margin-bottom: 12px;
+    margin-right: 10%;
 }
 #txt_userAd{
-    margin-top: 35px;
-    margin-left: 35px;
-    position: fixed;
+    margin: 5%;
+   
 }
 #txt_passAd{
-    margin-top: 35px;
-    margin-left: 98px;
-    position: fixed;
+    margin: 5%;
+    
 }
 
 /* DISEÑO DEL LOG IN DEL JEFE DE BODEGA */
 #titul_Je{
     font-size: 45px;
-    margin-left: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 #marco_Je{
     background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    height: 32%;
+    margin-bottom: 5%;  
     border: 2px solid rgb(73, 73, 73);
-    ;
 }
 #Je_user{
     background-color: rgb(221, 221, 221);
@@ -149,9 +131,6 @@
 #user_JeCanc{
     font-size: 18px;
     padding: 5px 80px ;
-    margin-top: 15px;
-    margin-left: 5%;
-    margin-right: 19%;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -162,45 +141,31 @@
     padding: 5px 80px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
+    color: black;
 }
 #Jeuser_txt{
-    font-size: 17px;
-    width: 63%;
-    margin-top: 35px;
-    margin-left: 32%;
+    margin-right: 10%;
 }
 #Jepass_txt{
-    font-size: 17px;
-    width: 63%;
-    margin-top: 35px;
-    margin-left: 32%;
-    margin-bottom: 12px;
+    margin-right: 10%;
 }
 #txt_userJe{
-    margin-top: 35px;
-    margin-left: 35px;
-    position: fixed;
+    margin: 5%;
 }
 #txt_passJe{
-    margin-top: 35px;
-    margin-left: 98px;
-    position: fixed;
+    margin: 5%;
 }
 
 /* DISEÑO DEL LOG IN DEL MINERO */
 #titul_Mi{
     font-size: 45px;
-    margin-left: 29%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 #marco_Mi{
     background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    height: 32%;
+    margin-bottom: 5%;  
     border: 2px solid rgb(73, 73, 73);
     ;
 }
@@ -210,9 +175,6 @@
 #user_MiCanc{
     font-size: 18px;
     padding: 5px 80px ;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 19%;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -223,156 +185,121 @@
     padding: 5px 80px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
+    color: black;
 }
 #Miuser_txt{
-    font-size: 17px;
-    width: 63%;
-    margin-top: 35px;
-    margin-left: 32%;
+    margin-right: 10%;
 }
 #Mipass_txt{
-    font-size: 17px;
-    width: 63%;
-    margin-top: 35px;
-    margin-left: 32%;
-    margin-bottom: 12px;
+    margin-right: 10%;
 }
 #txt_userMi{
-    margin-top: 35px;
-    margin-left: 35px;
-    position: fixed;
+    margin: 5%;
 }
 #txt_passMi{
-    margin-top: 35px;
-    margin-left: 98px;
-    position: fixed;
+    margin: 5%;
 }
 
 /* MENU ADMINISTRADOR */
 #superior_line{
-    display: flex;
+    display: flexbox;
     height: 60px;
     background-color: rgba(74, 112, 209, 1);
     align-items: center;
 }
-#fle_menAd{
-    display: flex;
+
+#arrow_image{
+    height: 80px;
+    padding-block-end: 30px;
+    padding-block-start: 10px;
+    margin-left: 10px;
 }
-.arrow_image{
-    height: 35px;
-    padding: 20px 10px;
-}
-.line_ADtitule{
+#line_ADtitule{
     color: rgb(255, 255, 255);
-    margin-left: 35%;
-    margin-right: 35%;
+    align-self: center;
 }
-.Sol_ON{
-    height: 35px;
-    right: 0;
-    position: absolute;
-    padding: 20px 10px;
+#Sol_ON{
+    height: 80px;
+    padding-block-end: 30px;
+    padding-block-start: 10px;
+    margin-right: 10px;
 }
 #bt_move_liAd{
-    display: flex;
     font-size: 28px;
-    padding: 8px 100px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 108px ;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_ediAd{
-    display: flex;
     font-size: 28px;
-    padding: 8px 122px;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 138px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_leAd{
-    display: flex;
     font-size: 28px;
-    padding: 8px 112px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 122px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_lsAd{
-    display: flex;
     font-size: 28px;
-    padding: 8px 115px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 132px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_lpAd{
-    display: flex;
+    
     font-size: 28px;
-    padding: 8px 88px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 90px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_cbAd{
-    display: flex;
     font-size: 28px;
-    padding: 8px 125px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 134px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_soliAd{
-    display: flex;
     font-size: 28px;
-    padding: 8px 140px ;
-    margin-top: 20px;
-    margin-left: 34%;
-    margin-right: 35%;
+    padding: 5px 150px ;
+    margin-top: 12px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #full_backup{
-position: fixed;
     font-size: 30px;
     padding: 9px 40px ;
-    margin-left: 3%;
-    margin-right: 60%;
+    margin-left: 17%;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
 #bt_move_cuAd{
-    position: fixed;
     font-size: 30px;
     padding: 9px 40px ;
-    margin-left: 78%;
+    
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
@@ -386,27 +313,21 @@ position: fixed;
     height: 65%;
 }
 #txt_listadoAd{
-    position: fixed;
-    margin-left: 150px;
+    margin-left: 250px;
 }
-.busca_listadoAd{
+#busca_listadoAd{
     font-size: 17px;
-    width: 35%;
-    margin-top: 17px;
-    margin-left: 25%;
+
 }
-.buscar_Adlistado{
-    margin-top: 17px;
-    margin-left: 5px;
+#buscar_Adlistado{
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
     text-decoration: none;
     color: black;
 }
-.Adlista_Exc{
-    margin-top: 17px;
-    margin-left: 17%;
+#Adlista_Exc{
+    margin-block-end: 10%;
     padding: 4px 25px;
     border: 1px solid gray;
     background-image: linear-gradient(white,gainsboro);
