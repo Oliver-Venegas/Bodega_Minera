@@ -17,61 +17,76 @@
     </header>
 
     <div class="container text-center" style="margin-top: 10px;" >
-        <form class="row text-center" > 
-            <div  class="row" style="margin-top: 50px;">
+        <form name="fomulo" action="../php/regis_user.php" method="POST" id="creacion_user" class="row text-center" > 
+            <label  class="row" style="margin-top: 50px;">
                 <div class="col-4" >
                 <input type="text" id="txt_tipeBodAd" readonly class="form-control-plaintext text-end " value="Tipo de Usuario:">
                 </div>     
                 <div class="col-6">
-                <input type="text" id="AdUsertipe_txt"  class="form-control">
+                  <select class="form-select" id="AdUsertipe_txt" name="user_tipo">
+                    <option selected></option>
+                    <option value="Jefe de Bodega">Jefe de Bodega</option>
+                    <option value="Minero">Minero</option>
+                  </select>
+                 <span></span>
                 </div>
-            </div>                          
+               
+            </label>  
+                                     
               
               
-            <div class="row" style="margin-top: 50px;">
+            <label class="row" style="margin-top: 50px;">
               <div class="col-4">
-                <input type="text" id="txt_nameBodAd" readonly class="form-control-plaintext text-end"  value="Nombre de Usuario:">
+                <input type="text" readonly class="form-control-plaintext text-end"  value="Nombre de Usuario:">
                 </div>
                 <div class="col-6">
-                 <input type="text" id="AdUsername_txt" class="form-control" >
-                </div>                    
-            </div>  
+                 <input type="text" id="AdUsername_txt" name="user_nombre" class="form-control" >
+                <span></span>  
+                </div>  
+                            
+            </label>  
             
             <div class="row" style="margin-top: 50px;">
                 <div class="col-4">
-                  <input type="text" id="txt_nameBodAd" readonly class="form-control-plaintext text-end"  value="Contraseña:">
+                  <input type="text"  readonly class="form-control-plaintext text-end"  value="Contraseña:">
                   </div>
                   <div class="col-6">
-                   <input type="text" id="AdUserpass_txt" class="form-control" >
-                  </div>                    
+                   <input type="text" id="AdUserpass_txt" name="user_contra" class="form-control" >
+                  <span></span> 
+                  </div>  
+                                   
               </div>
 
               <div class="row" style="margin-top: 50px;">
                 <div class="col-4">
-                  <input type="text" id="txt_nameBodAd" readonly class="form-control-plaintext text-end"  value="Vuelva a escribir la Contraseña:">
+                  <input type="text"readonly class="form-control-plaintext text-end"  value="Vuelva a escribir la Contraseña:">
                   </div>
                   <div class="col-6">
-                   <input type="text" id="AdUseragain_txt" class="form-control" >
+                   <input type="text" id="AdUseragain_txt" name="user_again" class="form-control" >
+                   <span></span>
                   </div>                    
               </div>
-        </form>
-    
-          <div class="container text-center" style="margin-top: 60px;">
+
+              <div class="container text-center" style="margin-top: 60px;">
             <div class="row"  >
             <div class="col-5">
                 <a id="canc_AdUser" class="btn btn-primary btn-lg " href="Menu_Ad.html">Cancelar</a>
             </div>
 
             <div class="col-7">
-                <button id="conf_AdUser" class="btn btn-primary btn-lg " type="submit">Confirmar</button>
+                <button id="conf_AdUser" class="btn btn-primary btn-lg "  type="submit">Confirmar</button>
             </div>
             
             </div>
           </div>
+        </form>
+    
+          
 
           </div>
 
 
+        <script src="../js/valida_CreaUser.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
