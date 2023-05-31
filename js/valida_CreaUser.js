@@ -18,10 +18,24 @@ const validaEmptyness = (mensage, e) =>{
     }
 }
 
+againfield.addEventListener("blur", function (e) {
+    const field = e.target;
+    const fieldVal = e.target.value;
+    if (fieldVal != passfield) {
+        field.classList.add("invalid");
+        field.nextElementSibling.classList.add("falla");
+        field.nextElementSibling.innerText = "Debe ingresar la misma Contraseña";
+        
+    }else{
+        field.classList.remove("invalid");
+        field.nextElementSibling.classList.remove("falla");
+        field.nextElementSibling.innerText = "";
+    }
+})
+
 nombrefield.addEventListener("blur", (e) => validaEmptyness("Debes ingresar un Nombre", e));
 tipofield.addEventListener("blur", (e) => validaEmptyness("Debe ingresar un Tipo de Usuario", e));
 passfield.addEventListener("blur", (e) => validaEmptyness("Debe ingresar una Contraseña", e));
-againfield.addEventListener("blur", (e) => validaEmptyness("Debe ingresar una Contraseña", e));
 
 with(document.fomulo){
     
