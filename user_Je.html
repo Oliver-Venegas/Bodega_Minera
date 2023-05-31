@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,39 +21,21 @@
                 <span class="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
                 <input id="Jepass_txt" type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="contrasena">
             </div>
-        </form>
-        <br>
-        <!-- BOTONES CANCELAR Y CONFIRMAR -->
-        <div class="container px-4 text-center">
-            <div class="row gx-5">
-                <div class="col">
-                    <div class="p-3"><a id="user_JeCanc" class="btn btn-primary btn-lg" href="select.html">Cancelar</a></div>
-                </div>
-                <div class="col">
-                    <div class="p-3"><input id="user_JeConf" class="btn btn-primary" type="submit" value="Confirmar" onclick="validarFormulario(event)"></div>
+            <br>
+            <!-- BOTONES CANCELAR Y CONFIRMAR -->
+            <div class="container px-4 text-center">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3"><a id="user_JeCanc" class="btn btn-primary btn-lg" href="select.html">Cancelar</a></div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3"><input id="user_JeConf" class="btn btn-primary" type="submit" value="Confirmar"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
         <br>
     </div>
-    <script>
-        function validarFormulario(event) {
-            event.preventDefault(); // Evita que el formulario se envíe automáticamente
-
-            // Obtener los valores ingresados en los campos de usuario y contraseña
-            var usuario = document.getElementById("Jeuser_txt").value;
-            var contrasena = document.getElementById("Jepass_txt").value;
-
-            // Validar usuario y contraseña
-            if (usuario === "usuario123" && contrasena === "mac123") {
-                // Usuario y contraseña válidos
-                window.location.href = "Jefe_de_Bodega/Menu_Je.html"; // Redirige a la página de inicio de sesión exitoso
-            } else {
-                // Usuario o contraseña incorrectos
-                alert("Usuario o contraseña incorrectos");
-            }
-        }
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
