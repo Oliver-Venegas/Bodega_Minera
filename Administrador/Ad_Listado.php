@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
     <title>Listado de Bodega</title>
     <link rel="stylesheet" href="../Estilos.css">
 </head>
@@ -16,7 +17,53 @@
         </div>
         
     </header>
-    <button class="test_lista"></button>
+<?php 
+include ('../php/conect_be.php')
+?>
+
+    <div class="table-responsive prod_envuelto">
+      <table class="table table-hover tabla_responsiva">
+
+      <thead class="text-muted text-center hea">
+        <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Tipo</th>
+        <th>Pass</th>
+
+        </tr>
+        
+      </thead>
+
+     <tbody class="text-center boy" id="data_general">
+
+ 
+      
+    <?php 
+//Tabla de base de datos
+  $sql = "SELECT * FROM users_log";
+  $pro_query = mysqli_query($conexion,$sql);
+
+    while($prod_row = mysqli_fetch_assoc($pro_query)){ ?>
+
+      <tr>
+        <td><?php echo $prod_row['id_usuario']; ?></td>
+
+        <td><?php echo $prod_row['nombre_usuario']; ?></td>
+
+        <td><?php echo $prod_row['tipo_usuario']; ?></td>
+
+        <td><?php echo $prod_row['pass_usuario']; ?></td>
+
+      </tr>
+
+      <?php } ?>
+     </tbody>
+      
+        <caption>Bodega General</caption>
+      </table>
+    </div>
+    
 
      <form class="row g-4">
         <div class="col-auto ">
@@ -26,16 +73,34 @@
         <div class="col-auto">
           <input type="text" class="form-control" id="busca_listadoAd" placeholder="Ingresar el Producto">
         </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-3" id="buscar_Adlistado">Buscar</button>
-
-        </div>
+        
         <div class="col-auto">
             <button id="Adlista_Exc" class="btn btn-primary mb-3" type="submit">Extraer en Excel</button>
         </div>
       </form>    
     
-   
+   <script>
+    $(document).ready(function(){
+      //Elemento a buscar
+      $('#busca_listadoAd').on("keyup", function(){
+        var busca_listadoAd = $(this).val();
+        $.ajax({
+          method:'POST',
+          url:'../php/busca_ajax.php',
+          //Columa de base de datos y input de la pagina web
+          data:{nombre_usuario:busca_listadoAd},
+          success:function(response){
+            $("#data_general").html(response)
+
+          }
+
+        });
+
+      });
+
+    });
+
+   </script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
 </body>
 </html>

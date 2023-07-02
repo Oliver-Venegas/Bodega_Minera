@@ -1,3 +1,36 @@
+.prod_envuelto{
+    width: min(900px, 100% - 3rem);
+    margin-inline: auto;
+    max-height: 460px;
+    overflow-y: scroll;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tabla_responsiva{ 
+    width: 100%;
+   border-collapse: collapse;
+   
+}
+
+.boy{
+    background: #fafafa;
+    padding: 3rem;
+}
+tr:nth-of-type(2n){
+    background: #f1f1f1d0;
+}
+caption{
+    background-color: rgb(95, 131, 221);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+.hea{
+    background-color: rgb(214, 214, 214);
+    padding: 3rem;
+}
+
+
 .invalid{
     border: solid 1px red;
     box-shadow: 0 0 10px red;
