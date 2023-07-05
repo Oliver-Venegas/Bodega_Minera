@@ -26,10 +26,11 @@ include ('../php/conect_be.php')
 
       <thead class="text-muted text-center hea">
         <tr>
-        <th>ID</th>
-        <th>Nombre</th>
+        <th>Codigo Producto</th>
         <th>Tipo</th>
-        <th>Pass</th>
+        <th>Descripcion</th>
+        <th>Fecha</th>
+        <th>Total Unidades</th>
 
         </tr>
         
@@ -41,19 +42,21 @@ include ('../php/conect_be.php')
       
     <?php 
 //Tabla de base de datos
-  $sql = "SELECT * FROM users_log";
+  $sql = "SELECT * FROM producto_general";
   $pro_query = mysqli_query($conexion,$sql);
 
     while($prod_row = mysqli_fetch_assoc($pro_query)){ ?>
 
       <tr>
-        <td><?php echo $prod_row['id_usuario']; ?></td>
+      <td><?php echo $prod_row['codigo_producto']; ?></td>
 
-        <td><?php echo $prod_row['nombre_usuario']; ?></td>
+      <td><?php echo $prod_row['tipo_producto']; ?></td>
 
-        <td><?php echo $prod_row['tipo_usuario']; ?></td>
+      <td><?php echo $prod_row['descripcion_producto']; ?></td>
 
-        <td><?php echo $prod_row['pass_usuario']; ?></td>
+      <td><?php echo $prod_row['fecha_producto']; ?></td>
+
+      <td><?php echo $prod_row['unidades_producto']; ?></td>
 
       </tr>
 
@@ -88,7 +91,7 @@ include ('../php/conect_be.php')
           method:'POST',
           url:'../php/busca_ajax.php',
           //Columa de base de datos y input de la pagina web
-          data:{nombre_usuario:busca_listadoAd},
+          data:{descripcion_producto:busca_listadoAd},
           success:function(response){
             $("#data_general").html(response)
 

@@ -33,7 +33,7 @@ againfield.addEventListener("blur", function (e) {
     }
 })
 
-nombrefield.addEventListener("blur", (e) => validaEmptyness("Debes ingresar un Nombre", e));
+nombrefield.addEventListener("blur", (e) => validaEmptyness("Debe ingresar un Nombre", e));
 tipofield.addEventListener("blur", (e) => validaEmptyness("Debe ingresar un Tipo de Usuario", e));
 passfield.addEventListener("blur", (e) => validaEmptyness("Debe ingresar una Contraseña", e));
 
